@@ -1,2 +1,0 @@
-# whoeatspizza
-Created with CodeSandbox

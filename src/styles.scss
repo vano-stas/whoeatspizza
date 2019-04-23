@@ -1,0 +1,38 @@
+body {
+  font-family: sans-serif;
+}
+
+button {
+  background: red;
+  color: blue;
+  font-size: 20px;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border: 1px solid;
+  border-radius: 50%;
+  position: relative;
+  transform: rotate(180deg);
+  margin-top: 20px;
+  background: yellow;
+}
+
+.line {
+  position: absolute;
+  height: 100px;
+  width: 1px;
+  background: #000;
+  left: 50%;
+  top: 50%;
+  transform-origin: 50% 0;
+}
+
+.all-participants,
+.eats-pizza {
+  vertical-align: top;
+  display: inline-block;
+  width: 200px;
+  color: rgb(7, 0, 97);
+}
